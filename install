@@ -1,0 +1,8 @@
+#! /bin/bash
+
+FILE="mlpack-2.1.0.tar.gz"
+
+curl "http://mlpack.org/files/$FILE" >> $FILE
+tar -xzf "$FILE"
+rm $FILE
+
